@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: gray;
+    width: 100vw;
+    height: 5vh;
+    align-items: center;
+}
+
+.nav{
+   text-decoration: none;
+   color: rgb(2, 2, 2);
+   background-color: rgb(58, 126, 92);
+   
+}
+.nav:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 51, 50);
+}
+
+.activo{
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
